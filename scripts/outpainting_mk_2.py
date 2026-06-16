@@ -186,6 +186,7 @@ class Script(scripts.Script):
             down = target_h - init_img.height - up
 
         def expand(init, count, expand_pixels, is_left=False, is_right=False, is_top=False, is_bottom=False):
+            nonlocal initial_seed, initial_info
             is_horiz = is_left or is_right
             is_vert = is_top or is_bottom
             pixels_horiz = expand_pixels if is_horiz else 0

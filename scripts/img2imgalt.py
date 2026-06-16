@@ -1,5 +1,4 @@
 from collections import namedtuple
-from typing import Optional
 
 import numpy as np
 from tqdm import trange

@@ -30,4 +30,3 @@ class ScriptPostprocessingGfpGan(scripts_postprocessing.ScriptPostprocessing):
 
         pp.image = res
         pp.info["GFPGAN visibility"] = round(gfpgan_visibility, 3)
-    
